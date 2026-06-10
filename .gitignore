@@ -1,0 +1,37 @@
+# 微信小程序
+*.wxss
+*.wxml
+*.js
+*.json
+!app.json
+!project.config.json
+!sitemap.json
+
+# 编译产物
+miniprogram_dist/
+dist/
+
+# 依赖
+node_modules/
+
+# 开发工具
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 临时文件
+*.tmp
+*.temp
+
+# 日志文件
+*.log
+
+# 敏感信息
+project.private.config.json
+.env
+*.key
+*.pem
